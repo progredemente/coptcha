@@ -1,0 +1,48 @@
+.generate-section {
+    color: var(--primary-color)
+}
+
+.generate-input-container {
+    display: flex;
+}
+
+.generate-input {
+    all: unset;
+    border: 1px solid var(--primary-color);
+    flex-grow: 1;
+    font-size: 1em;
+    padding: 10px;
+    color: var(--primary-color);
+    box-sizing: border-box;
+}
+
+.generate-input::placeholder {
+    color: var(--primary-color);
+    opacity: .75;
+}
+
+.generate-section .prg-button {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.generate-input.error::placeholder {
+    color: red;
+    opacity: .75;
+}
+
+.generate-input.success {
+    color: green;
+}
+
+.generate-input-container .prg-button {
+    margin: 0 0 0 1em
+}
+
+.prg-button.copied {
+    background-color: green;
+}
+
+.generate-disclaimer {
+    font-size: .75em;
+}

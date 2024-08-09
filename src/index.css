@@ -1,0 +1,39 @@
+* {
+    font-family: ComicTypo;
+    box-sizing: border-box;
+    --primary-color: #1e3166;
+    --secondary-color: #a1a1a1;
+    --border-radius: 20px;
+    --prg-button-background-color: var(--primary-color) !important;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 1.5em;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #032055;
+}
+
+.apps-bar-container {
+    --apps-bar-primary-color: var(--secondary-color) !important;
+    --apps-bar-secondary-color: var(--primary-color) !important;
+    --apps-bar-text-primary-color: white !important;
+    --apps-bar-text-secondary-color: black !important;
+}
+
+.prg-button {
+    --prg-button-text-color: white !important;
+}
+
+a {
+    color: var(--secondary-color)
+}
+

@@ -1,0 +1,20 @@
+.captcha-img {
+    transition: transform .15s ease;
+}
+
+.captcha-img.selected {
+    transform: scale(75%, 75%);
+}
+
+.captcha-icon {
+    position:absolute;
+    z-index: 1;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 2em;
+    padding: 5px
+}
+
+.captcha-icon:not(.selected) {
+    display: none;
+}

@@ -67,7 +67,7 @@ class App extends Component {
                             success={this.state.success}
                         />
                         <div className='title'>
-                            <div className='title-author'>powered by <a href="." target="_blank">progredemente</a></div>
+                            <div className='title-author'>powered by <a href="https://progredemente.com" target="_blank">progredemente</a></div>
                         </div>
                         {
                             this.state.visibleCaptcha &&
@@ -94,7 +94,7 @@ class App extends Component {
                                 <div className='title-description'>
                                     El CAPTCHA para esquivar a la policía
                                 </div>
-                                <div className='title-author'>por <a href="/" target="_blank">progredemente</a></div>
+                                <div className='title-author'>por <a href="https://progredemente.com" target="_blank">progredemente</a></div>
                             </div>
                             <InitialCheck
                                 openCaptcha={this.openCaptcha}

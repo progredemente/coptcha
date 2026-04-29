@@ -88,7 +88,7 @@ class App extends Component {
                         <div className='app'>
                             <div className='title'>
                                 <img
-                                    src={`${process.env.RESOURCES_URL}/coptcha.png`} alt={"COPTCHA LOGO"}
+                                    src={`${process.env.MEDIA_URL}/resources/logos/coptcha.png`} alt={"COPTCHA LOGO"}
                                 />
                                 <div className='title-name'><span>COP</span>TCHA</div>
                                 <div className='title-description'>

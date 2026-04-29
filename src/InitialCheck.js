@@ -54,7 +54,7 @@ class InitialCheck extends Component {
                 </div>
                 <div className='initial-check-logo'>
                     <img
-                        src={`${process.env.RESOURCES_URL}/coptcha.png`} alt={"COPTCHA LOGO"}
+                        src={`${process.env.MEDIA_URL}/resources/logos/coptcha.png`} alt={"COPTCHA LOGO"}
                     />
                     <div className='initial-check-title'><span>COP</span>TCHA</div>
                 </div>
